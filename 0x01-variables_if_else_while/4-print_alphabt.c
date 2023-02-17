@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: got a random number and check its
+ * Description: get a random number and check its
  * Return: 0
  */
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		if (c != 'e' && c != 'a')
+		if (c != 'e' && c != 'q')
 		{
 			putchar(c);
 		}
